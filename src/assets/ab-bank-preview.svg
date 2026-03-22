@@ -1,0 +1,148 @@
+<svg width="1112" height="1160" viewBox="0 0 1112 1160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="1110" height="1158" rx="30" fill="#07111B" stroke="#1B3B55" stroke-width="2"/>
+  <path d="M104 1V1159" stroke="#17354B"/>
+  <path d="M1 118H1111" stroke="#17354B"/>
+  <path d="M1 923H1111" stroke="#17354B"/>
+  <rect x="24" y="34" width="64" height="60" rx="16" fill="#3D74F6"/>
+  <rect x="42" y="53" width="21" height="21" rx="2" stroke="#DDE9FF" stroke-width="4"/>
+  <rect x="36" y="169" width="34" height="34" rx="6" stroke="#345D89" stroke-width="2"/>
+  <rect x="36" y="241" width="34" height="34" rx="6" stroke="#17354B" stroke-width="2"/>
+  <rect x="36" y="313" width="34" height="34" rx="6" stroke="#17354B" stroke-width="2"/>
+  <rect x="36" y="385" width="34" height="34" rx="6" stroke="#17354B" stroke-width="2"/>
+  <circle cx="54" cy="1112" r="24" fill="#14304A" stroke="#345D89" stroke-width="2"/>
+  <circle cx="54" cy="1112" r="11" fill="#3D74F6"/>
+
+  <text x="138" y="61" fill="#DFE8F1" font-size="28" font-weight="700" font-family="'Chakra Petch', monospace">Banking Dashboard</text>
+  <text x="138" y="88" fill="#4A83A8" font-size="16" font-family="'Chakra Petch', monospace">// ai-powered · real-time monitoring</text>
+
+  <rect x="772" y="44" width="120" height="40" rx="12" fill="#102131" stroke="#1F425C" stroke-width="2"/>
+  <text x="793" y="70" fill="#67C5EA" font-size="16" font-family="'Chakra Petch', monospace">● Search</text>
+  <rect x="907" y="44" width="55" height="40" rx="12" fill="#102131" stroke="#1F425C" stroke-width="2"/>
+  <circle cx="935" cy="64" r="10" stroke="#67C5EA" stroke-width="2"/>
+  <circle cx="947" cy="51" r="3" fill="#FF6259"/>
+  <rect x="978" y="44" width="98" height="40" rx="12" fill="#241418" stroke="#7B3238" stroke-width="2"/>
+  <text x="997" y="70" fill="#FF8580" font-size="16" font-family="'Chakra Petch', monospace">Logout</text>
+
+  <rect x="139" y="117" width="223" height="48" rx="14" fill="#0F1F36" stroke="#295FBF" stroke-width="2"/>
+  <rect x="378" y="117" width="223" height="48" rx="14" fill="#0D241E" stroke="#1F7F67" stroke-width="2"/>
+  <rect x="617" y="117" width="223" height="48" rx="14" fill="#221C12" stroke="#8B641A" stroke-width="2"/>
+  <rect x="856" y="117" width="220" height="48" rx="14" fill="#191426" stroke="#50319A" stroke-width="2"/>
+  <text x="157" y="148" fill="#68A6FF" font-size="16" font-family="'Chakra Petch', monospace">▢ Send Money</text>
+  <text x="394" y="148" fill="#39E0B1" font-size="16" font-family="'Chakra Petch', monospace">▢ Request</text>
+  <text x="633" y="148" fill="#FFD048" font-size="16" font-family="'Chakra Petch', monospace">▢ Beneficiary</text>
+  <text x="873" y="148" fill="#B499FF" font-size="16" font-family="'Chakra Petch', monospace">▢ Statement</text>
+
+  <rect x="139" y="191" width="380" height="199" rx="22" fill="url(#cardFill)" stroke="#294B86" stroke-width="2"/>
+  <circle cx="517" cy="230" r="69" fill="#2E4E8B" opacity="0.28"/>
+  <circle cx="417" cy="336" r="88" fill="#345D89" opacity="0.12"/>
+  <text x="166" y="236" fill="#8BAED6" font-size="18" font-family="'Chakra Petch', monospace" letter-spacing="6">AB BANK</text>
+  <text x="166" y="275" fill="#DBE7FF" font-size="26" font-family="'Chakra Petch', monospace">••••  ••••  ••••  4521</text>
+  <text x="166" y="338" fill="#7C94B4" font-size="15" font-family="'Chakra Petch', monospace" letter-spacing="3">CARD HOLDER</text>
+  <text x="166" y="357" fill="#EAF2FF" font-size="18" font-weight="700" font-family="'Chakra Petch', monospace">MEGHANA</text>
+  <circle cx="452" cy="344" r="16" fill="#E54B4B"/>
+  <circle cx="475" cy="344" r="16" fill="#EDA41A" opacity="0.9"/>
+
+  <rect x="543" y="191" width="256" height="207" rx="22" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <rect x="820" y="191" width="256" height="207" rx="22" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <text x="567" y="234" fill="#C9D8E6" font-size="22" font-weight="700" font-family="'Chakra Petch', monospace">Total Income</text>
+  <text x="567" y="255" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">August 2023</text>
+  <text x="567" y="295" fill="#39E0B1" font-size="32" font-weight="700" font-family="'Chakra Petch', monospace">Rs 6,421</text>
+  <path d="M578 356L608 344L638 352L668 329L698 338L728 325L765 332" stroke="#39E0B1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M578 356L608 344L638 352L668 329L698 338L728 325L765 332V365H578V356Z" fill="url(#incomeFill)" opacity="0.2"/>
+
+  <text x="844" y="234" fill="#C9D8E6" font-size="22" font-weight="700" font-family="'Chakra Petch', monospace">Total Expense</text>
+  <text x="844" y="255" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">August 2023</text>
+  <text x="844" y="295" fill="#FF7F7F" font-size="32" font-weight="700" font-family="'Chakra Petch', monospace">Rs 561</text>
+  <path d="M856 329L886 347L916 321L946 351L976 332L1006 343L1042 336" stroke="#FF7F7F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M856 329L886 347L916 321L946 351L976 332L1006 343L1042 336V365H856V329Z" fill="url(#expenseFill)" opacity="0.18"/>
+
+  <rect x="139" y="411" width="380" height="276" rx="18" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <text x="163" y="454" fill="#C9D8E6" font-size="22" font-weight="700" font-family="'Chakra Petch', monospace">Account Overview</text>
+  <text x="163" y="503" fill="#4A83A8" font-size="16" font-family="'Chakra Petch', monospace">Account No</text>
+  <text x="391" y="503" fill="#A9BDCF" font-size="16" font-family="'Chakra Petch', monospace">••••4521</text>
+  <text x="163" y="537" fill="#4A83A8" font-size="16" font-family="'Chakra Petch', monospace">IFSC</text>
+  <text x="393" y="537" fill="#A9BDCF" font-size="16" font-family="'Chakra Petch', monospace">APNB001200</text>
+  <path d="M163 573H495" stroke="#17354B" stroke-width="2"/>
+  <text x="163" y="611" fill="#4A83A8" font-size="16" font-family="'Chakra Petch', monospace">Balance</text>
+  <text x="385" y="611" fill="#39E0B1" font-size="16" font-weight="700" font-family="'Chakra Petch', monospace">Rs 1,25,430</text>
+  <text x="163" y="645" fill="#4A83A8" font-size="16" font-family="'Chakra Petch', monospace">Status</text>
+  <text x="417" y="645" fill="#61D98A" font-size="16" font-family="'Chakra Petch', monospace">● Active</text>
+  <rect x="164" y="627" width="235" height="34" rx="10" fill="#15294A" stroke="#295FBF" stroke-width="2"/>
+  <text x="228" y="650" fill="#81B3FF" font-size="14" font-family="'Chakra Petch', monospace">View Details</text>
+  <rect x="410" y="627" width="83" height="34" rx="10" fill="#102131" stroke="#345D89" stroke-width="2"/>
+  <text x="428" y="650" fill="#A9BDCF" font-size="14" font-family="'Chakra Petch', monospace">Freeze</text>
+
+  <rect x="139" y="711" width="380" height="213" rx="18" fill="#0E1D2B" stroke="#6E41E3" stroke-width="2"/>
+  <text x="164" y="777" fill="#B499FF" font-size="18" font-family="'Chakra Petch', monospace">// ai insight</text>
+  <text x="164" y="820" fill="#A9BDCF" font-size="16" font-style="italic" font-family="'Chakra Petch', monospace">Spending increased 12% this week.</text>
+  <text x="164" y="849" fill="#A9BDCF" font-size="16" font-style="italic" font-family="'Chakra Petch', monospace">Largest category: shopping.</text>
+  <text x="164" y="878" fill="#A9BDCF" font-size="16" font-style="italic" font-family="'Chakra Petch', monospace">Consider reviewing Amazon</text>
+  <text x="164" y="907" fill="#A9BDCF" font-size="16" font-style="italic" font-family="'Chakra Petch', monospace">transactions.</text>
+  <text x="164" y="947" fill="#9468F0" font-size="14" font-family="'Chakra Petch', monospace">confidence: HIGH · model: v2.1</text>
+
+  <rect x="543" y="419" width="533" height="516" rx="22" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <text x="567" y="463" fill="#C9D8E6" font-size="22" font-weight="700" font-family="'Chakra Petch', monospace">Transaction History</text>
+  <rect x="822" y="445" width="84" height="34" rx="8" fill="#102131" stroke="#1F425C" stroke-width="2"/>
+  <rect x="917" y="445" width="52" height="34" rx="8" fill="#102131" stroke="#1F425C" stroke-width="2"/>
+  <rect x="980" y="445" width="72" height="34" rx="8" fill="#102131" stroke="#1F425C" stroke-width="2"/>
+  <text x="837" y="467" fill="#67C5EA" font-size="14" font-family="'Chakra Petch', monospace">Search</text>
+  <text x="929" y="467" fill="#A9BDCF" font-size="14" font-family="'Chakra Petch', monospace">All</text>
+  <text x="995" y="467" fill="#A9BDCF" font-size="14" font-family="'Chakra Petch', monospace">Dates</text>
+  <text x="576" y="527" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">DATE</text>
+  <text x="731" y="527" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">DESCRIPTION</text>
+  <text x="846" y="527" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">TYPE</text>
+  <text x="951" y="527" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">AMOUNT</text>
+  <path d="M567 530H1053" stroke="#17354B" stroke-width="2"/>
+
+  <rect x="567" y="591" width="486" height="60" rx="10" fill="#102131"/>
+  <rect x="567" y="712" width="486" height="60" rx="10" fill="#102131"/>
+  <rect x="567" y="832" width="486" height="60" rx="10" fill="#102131"/>
+  <text x="576" y="564" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">2026-02-20</text>
+  <text x="731" y="564" fill="#A9BDCF" font-size="15" font-family="'Chakra Petch', monospace">Salary</text>
+  <text x="731" y="584" fill="#A9BDCF" font-size="15" font-family="'Chakra Petch', monospace">Credit</text>
+  <text x="839" y="564" fill="#39E0B1" font-size="15" font-family="'Chakra Petch', monospace">Credit</text>
+  <text x="901" y="564" fill="#39E0B1" font-size="15" font-family="'Chakra Petch', monospace">Rs 50,000</text>
+  <text x="1035" y="564" fill="#39E0B1" font-size="15" font-family="'Chakra Petch', monospace">● Success</text>
+
+  <text x="576" y="626" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">2026-02-19</text>
+  <text x="731" y="626" fill="#A9BDCF" font-size="15" font-family="'Chakra Petch', monospace">Amazon</text>
+  <text x="731" y="646" fill="#A9BDCF" font-size="15" font-family="'Chakra Petch', monospace">Payment</text>
+  <text x="839" y="626" fill="#FF7F7F" font-size="15" font-family="'Chakra Petch', monospace">Debit</text>
+  <text x="909" y="626" fill="#FF7F7F" font-size="15" font-family="'Chakra Petch', monospace">Rs 2,500</text>
+  <text x="1035" y="626" fill="#39E0B1" font-size="15" font-family="'Chakra Petch', monospace">● Success</text>
+
+  <text x="576" y="688" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">2026-02-18</text>
+  <text x="731" y="688" fill="#A9BDCF" font-size="15" font-family="'Chakra Petch', monospace">Electricity</text>
+  <text x="731" y="708" fill="#A9BDCF" font-size="15" font-family="'Chakra Petch', monospace">Bill</text>
+  <text x="839" y="688" fill="#FF7F7F" font-size="15" font-family="'Chakra Petch', monospace">Debit</text>
+  <text x="909" y="688" fill="#FF7F7F" font-size="15" font-family="'Chakra Petch', monospace">Rs 1,400</text>
+  <text x="1035" y="688" fill="#FFD048" font-size="15" font-family="'Chakra Petch', monospace">● Pending</text>
+
+  <text x="576" y="750" fill="#4A83A8" font-size="15" font-family="'Chakra Petch', monospace">2026-02-16</text>
+  <text x="731" y="750" fill="#A9BDCF" font-size="15" font-family="'Chakra Petch', monospace">Refund</text>
+  <text x="731" y="770" fill="#A9BDCF" font-size="15" font-family="'Chakra Petch', monospace">Received</text>
+  <text x="839" y="750" fill="#39E0B1" font-size="15" font-family="'Chakra Petch', monospace">Credit</text>
+  <text x="919" y="750" fill="#39E0B1" font-size="15" font-family="'Chakra Petch', monospace">Rs 700</text>
+  <text x="1035" y="750" fill="#39E0B1" font-size="15" font-family="'Chakra Petch', monospace">● Success</text>
+
+  <rect x="568" y="792" width="486" height="66" rx="14" fill="#181C34" stroke="#50319A" stroke-width="2"/>
+  <text x="589" y="826" fill="#A889FF" font-size="15" font-family="'Chakra Petch', monospace">●  AI: No anomalies detected in recent</text>
+  <text x="619" y="847" fill="#A889FF" font-size="15" font-family="'Chakra Petch', monospace">transactions · fraud score: 0.02</text>
+  <circle cx="1048" cy="1109" r="32" fill="#3D74F6"/>
+  <text x="1035" y="1123" fill="#EAF2FF" font-size="36" font-family="'Chakra Petch', monospace">+</text>
+
+  <defs>
+    <linearGradient id="cardFill" x1="139" y1="191" x2="519" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B3264"/>
+      <stop offset="1" stop-color="#24447F"/>
+    </linearGradient>
+    <linearGradient id="incomeFill" x1="578" y1="325" x2="578" y2="365" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39E0B1"/>
+      <stop offset="1" stop-color="#39E0B1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="expenseFill" x1="856" y1="321" x2="856" y2="365" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7F7F"/>
+      <stop offset="1" stop-color="#FF7F7F" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

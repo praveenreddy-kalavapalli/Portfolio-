@@ -1,0 +1,150 @@
+<svg width="1112" height="1307" viewBox="0 0 1112 1307" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="1110" height="1305" rx="28" fill="#07111B" stroke="#1B3B55" stroke-width="2"/>
+  <rect x="2" y="78" width="1108" height="1" fill="#17354B"/>
+  <rect x="2" y="247" width="1108" height="1" fill="#17354B"/>
+  <rect x="2" y="730" width="1108" height="1" fill="#17354B"/>
+  <rect x="2" y="1207" width="1108" height="1" fill="#17354B"/>
+  <rect x="371" y="248" width="1" height="482" fill="#17354B"/>
+  <rect x="740" y="248" width="1" height="482" fill="#17354B"/>
+
+  <circle cx="49" cy="39" r="12" fill="#E0533D"/>
+  <circle cx="87" cy="39" r="12" fill="#DDB45D"/>
+  <circle cx="125" cy="39" r="12" fill="#63C683"/>
+
+  <text x="179" y="48" fill="#FF9D57" font-size="26" font-family="'Chakra Petch', monospace">⚡</text>
+  <text x="220" y="48" fill="#3F7AA3" font-size="24" font-family="'Chakra Petch', monospace" letter-spacing="5">flash sale system - concurrency demo</text>
+
+  <rect x="967" y="23" width="105" height="32" rx="2" fill="#10251E" stroke="#2E654A" stroke-width="2"/>
+  <circle cx="993" cy="39" r="5" fill="#79D38A"/>
+  <text x="988" y="69" fill="#7FD98E" font-size="19" font-family="'Chakra Petch', monospace">LIVE</text>
+
+  <text x="41" y="168" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">strategy</text>
+  <rect x="158" y="124" width="113" height="75" rx="6" fill="#1B1820" stroke="#7D4D56" stroke-width="2"/>
+  <rect x="294" y="124" width="113" height="75" rx="6" fill="#0E221C" stroke="#2F664B" stroke-width="2"/>
+  <rect x="430" y="108" width="128" height="108" rx="4" fill="#122432" stroke="#5AA7C8" stroke-width="4"/>
+  <text x="191" y="159" fill="#D98686" font-size="20" font-family="'Chakra Petch', monospace">No</text>
+  <text x="192" y="184" fill="#D98686" font-size="20" font-family="'Chakra Petch', monospace">Lock</text>
+  <text x="325" y="159" fill="#67C989" font-size="20" font-family="'Chakra Petch', monospace">DB</text>
+  <text x="324" y="184" fill="#67C989" font-size="20" font-family="'Chakra Petch', monospace">Lock</text>
+  <text x="462" y="142" fill="#67C5EA" font-size="20" font-family="'Chakra Petch', monospace">Redis</text>
+  <text x="463" y="167" fill="#67C5EA" font-size="20" font-family="'Chakra Petch', monospace">Lock</text>
+  <text x="461" y="193" fill="#67C5EA" font-size="20" font-family="'Chakra Petch', monospace">✓</text>
+
+  <text x="579" y="168" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">requests</text>
+  <rect x="685" y="142" width="96" height="40" rx="4" fill="#102131" stroke="#1F425C" stroke-width="2"/>
+  <text x="715" y="168" fill="#67C5EA" font-size="20" font-family="'Chakra Petch', monospace">2000</text>
+
+  <text x="799" y="168" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">concurrency</text>
+  <rect x="935" y="142" width="86" height="40" rx="4" fill="#102131" stroke="#1F425C" stroke-width="2"/>
+  <text x="961" y="168" fill="#67C5EA" font-size="20" font-family="'Chakra Petch', monospace">100</text>
+
+  <rect x="1038" y="124" width="98" height="75" rx="6" fill="#67C5EA"/>
+  <text x="1072" y="159" fill="#07111B" font-size="20" font-family="'Chakra Petch', monospace">Lua</text>
+  <text x="1072" y="184" fill="#07111B" font-size="20" font-family="'Chakra Petch', monospace">Att</text>
+
+  <text x="39" y="298" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">// no lock</text>
+  <text x="409" y="298" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">// db lock</text>
+  <text x="778" y="298" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">// redis lock</text>
+
+  <rect x="38" y="326" width="294" height="166" rx="12" fill="#1A1820" stroke="#7D4D56" stroke-width="2"/>
+  <rect x="408" y="326" width="295" height="166" rx="12" fill="#0E221C" stroke="#2F664B" stroke-width="2"/>
+  <rect x="777" y="326" width="295" height="166" rx="12" fill="#0E1D2B" stroke="#1F5674" stroke-width="2"/>
+
+  <text x="64" y="368" fill="#D98686" font-size="18" font-family="'Chakra Petch', monospace">OVERSOLD</text>
+  <text x="64" y="430" fill="#D98686" font-size="46" font-weight="700" font-family="'Chakra Petch', monospace">147</text>
+  <text x="64" y="460" fill="#D98686" font-size="18" font-family="'Chakra Petch', monospace">orders placed</text>
+
+  <text x="432" y="368" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">SAFE</text>
+  <text x="432" y="430" fill="#67C989" font-size="46" font-weight="700" font-family="'Chakra Petch', monospace">100</text>
+  <text x="432" y="460" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">orders placed</text>
+
+  <text x="803" y="368" fill="#67C5EA" font-size="18" font-family="'Chakra Petch', monospace">SAFE + FAST</text>
+  <text x="803" y="430" fill="#67C5EA" font-size="46" font-weight="700" font-family="'Chakra Petch', monospace">100</text>
+  <text x="803" y="460" fill="#67C5EA" font-size="18" font-family="'Chakra Petch', monospace">orders placed</text>
+
+  <text x="38" y="529" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">stock remaining</text>
+  <text x="302" y="529" fill="#D98686" font-size="18" font-family="'Chakra Petch', monospace">-47</text>
+  <text x="38" y="563" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">throughput</text>
+  <text x="211" y="563" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">~2000 req/s</text>
+  <text x="38" y="597" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">latency</text>
+  <text x="277" y="597" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">~30ms</text>
+
+  <text x="408" y="529" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">stock remaining</text>
+  <text x="691" y="529" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">0</text>
+  <text x="408" y="563" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">throughput</text>
+  <text x="581" y="563" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">~1900 req/s</text>
+  <text x="408" y="597" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">latency</text>
+  <text x="649" y="597" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">~35ms</text>
+
+  <text x="777" y="529" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">stock remaining</text>
+  <text x="1060" y="529" fill="#67C5EA" font-size="18" font-family="'Chakra Petch', monospace">0</text>
+  <text x="777" y="563" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">throughput</text>
+  <text x="951" y="563" fill="#67C5EA" font-size="18" font-family="'Chakra Petch', monospace">~2500 req/s</text>
+  <text x="777" y="597" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">latency</text>
+  <text x="1019" y="597" fill="#67C5EA" font-size="18" font-family="'Chakra Petch', monospace">~25ms</text>
+
+  <rect x="38" y="627" width="294" height="69" rx="4" fill="#231C23" stroke="#7D4D56" stroke-width="2"/>
+  <text x="94" y="663" fill="#FF5B88" font-size="22" font-family="'Chakra Petch', monospace">✖ race condition</text>
+  <text x="141" y="686" fill="#D98686" font-size="18" font-family="'Chakra Petch', monospace">detected</text>
+
+  <rect x="408" y="627" width="295" height="45" rx="4" fill="#10251E" stroke="#2F664B" stroke-width="2"/>
+  <text x="459" y="657" fill="#67C989" font-size="17" font-family="'Chakra Petch', monospace">✅ FOR UPDATE lock</text>
+
+  <rect x="777" y="627" width="295" height="45" rx="4" fill="#0E1D2B" stroke="#1F5674" stroke-width="2"/>
+  <text x="816" y="657" fill="#67C5EA" font-size="17" font-family="'Chakra Petch', monospace">✅ atomic lua script</text>
+
+  <text x="40" y="779" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">// recent orders - redis lock mode</text>
+  <text x="49" y="823" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">order id</text>
+  <text x="208" y="823" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">user</text>
+  <text x="582" y="823" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">product</text>
+  <text x="742" y="823" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">stock left</text>
+  <text x="902" y="823" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">status</text>
+
+  <rect x="42" y="848" width="1028" height="52" rx="8" fill="#102131"/>
+  <rect x="42" y="974" width="1028" height="52" rx="8" fill="#102131"/>
+  <rect x="42" y="1101" width="1028" height="76" rx="8" fill="#102131"/>
+
+  <text x="49" y="878" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">#1847</text>
+  <text x="209" y="878" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">user_2041</text>
+  <text x="582" y="878" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">prod_1</text>
+  <text x="742" y="878" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">3</text>
+  <text x="904" y="878" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">✅ success</text>
+
+  <text x="49" y="941" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">#1848</text>
+  <text x="209" y="941" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">user_0193</text>
+  <text x="582" y="941" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">prod_1</text>
+  <text x="742" y="941" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">2</text>
+  <text x="904" y="941" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">✅ success</text>
+
+  <text x="49" y="1004" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">#1849</text>
+  <text x="209" y="1004" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">user_1724</text>
+  <text x="582" y="1004" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">prod_1</text>
+  <text x="742" y="1004" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">1</text>
+  <text x="904" y="1004" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">✅ success</text>
+
+  <text x="49" y="1067" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">#1850</text>
+  <text x="209" y="1067" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">user_0882</text>
+  <text x="582" y="1067" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">prod_1</text>
+  <text x="742" y="1067" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">0</text>
+  <text x="904" y="1067" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">✅ last item</text>
+
+  <text x="49" y="1133" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">#1851</text>
+  <text x="209" y="1133" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">user_1103</text>
+  <text x="582" y="1133" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">prod_1</text>
+  <text x="742" y="1133" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">-</text>
+  <text x="904" y="1133" fill="#FF7D96" font-size="18" font-family="'Chakra Petch', monospace">✖ out of</text>
+  <text x="904" y="1162" fill="#FF7D96" font-size="18" font-family="'Chakra Petch', monospace">stock</text>
+
+  <text x="41" y="1250" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">total requests:</text>
+  <text x="41" y="1272" fill="#67C5EA" font-size="18" font-family="'Chakra Petch', monospace">2000</text>
+  <text x="294" y="1250" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">successful:</text>
+  <text x="294" y="1272" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">100</text>
+  <text x="496" y="1250" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">rejected:</text>
+  <text x="496" y="1272" fill="#A7BAC8" font-size="18" font-family="'Chakra Petch', monospace">1900</text>
+  <text x="688" y="1250" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">oversold:</text>
+  <text x="688" y="1272" fill="#67C989" font-size="18" font-family="'Chakra Petch', monospace">0</text>
+
+  <rect x="846" y="1230" width="223" height="55" rx="4" fill="#102131" stroke="#1F5674" stroke-width="2"/>
+  <text x="872" y="1254" fill="#67C5EA" font-size="18" font-family="'Chakra Petch', monospace">REDIS LOCK -</text>
+  <text x="872" y="1278" fill="#67C5EA" font-size="18" font-family="'Chakra Petch', monospace">SAFE</text>
+</svg>

@@ -1,0 +1,137 @@
+<svg width="1112" height="1478" viewBox="0 0 1112 1478" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="1110" height="1476" rx="28" fill="#07111B" stroke="#1B3B55" stroke-width="2"/>
+  <rect x="2" y="78" width="1108" height="1" fill="#17354B"/>
+  <rect x="2" y="235" width="1108" height="1" fill="#17354B"/>
+  <rect x="2" y="842" width="1108" height="1" fill="#17354B"/>
+  <rect x="2" y="1387" width="1108" height="1" fill="#17354B"/>
+  <rect x="555" y="235" width="1" height="607" fill="#17354B"/>
+
+  <circle cx="49" cy="39" r="12" fill="#E0533D"/>
+  <circle cx="87" cy="39" r="12" fill="#DDB45D"/>
+  <circle cx="125" cy="39" r="12" fill="#63C683"/>
+
+  <text x="171" y="48" fill="#3F7AA3" font-size="24" font-family="'Chakra Petch', monospace" letter-spacing="6">marketmind - ai financial research agent</text>
+
+  <rect x="967" y="23" width="105" height="32" rx="2" fill="#10251E" stroke="#2E654A" stroke-width="2"/>
+  <circle cx="993" cy="39" r="5" fill="#79D38A"/>
+  <text x="988" y="69" fill="#7FD98E" font-size="19" font-family="'Chakra Petch', monospace">LIVE</text>
+
+  <text x="41" y="166" fill="#3F7AA3" font-size="23" font-family="'Chakra Petch', monospace">query</text>
+  <rect x="129" y="112" width="739" height="94" rx="8" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <text x="157" y="151" fill="#67C5EA" font-size="28" font-family="'Chakra Petch', monospace">Analyze NVIDIA fundamentals and recent</text>
+  <text x="157" y="184" fill="#67C5EA" font-size="28" font-family="'Chakra Petch', monospace">performance</text>
+
+  <rect x="888" y="138" width="181" height="40" rx="6" fill="#0E1D2B" stroke="#1F5674" stroke-width="2"/>
+  <text x="914" y="164" fill="#67C5EA" font-size="19" font-family="'Chakra Petch', monospace">FUNDAMENTALS</text>
+
+  <text x="40" y="287" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">// pipeline trace</text>
+  <circle cx="49" cy="327" r="7" fill="#60D08A"/>
+  <text x="76" y="336" fill="#60D08A" font-size="21" font-family="'Chakra Petch', monospace">router</text>
+  <text x="482" y="336" fill="#4684AA" font-size="18" font-family="'Chakra Petch', monospace">2ms</text>
+
+  <text x="46" y="376" fill="#315B78" font-size="26" font-family="'Chakra Petch', monospace">|</text>
+  <circle cx="49" cy="401" r="7" fill="#60D08A"/>
+  <text x="76" y="410" fill="#60D08A" font-size="21" font-family="'Chakra Petch', monospace">clarifier</text>
+  <text x="482" y="410" fill="#4684AA" font-size="18" font-family="'Chakra Petch', monospace">5ms</text>
+
+  <text x="46" y="454" fill="#315B78" font-size="26" font-family="'Chakra Petch', monospace">|</text>
+  <circle cx="49" cy="476" r="7" fill="#DDB45D"/>
+  <text x="76" y="485" fill="#DDB45D" font-size="21" font-family="'Chakra Petch', monospace">gatherer</text>
+  <text x="460" y="485" fill="#4684AA" font-size="18" font-family="'Chakra Petch', monospace">312ms</text>
+  <text x="76" y="519" fill="#4A83A8" font-size="17" font-family="'Chakra Petch', monospace">-&gt; yFinance live data</text>
+  <text x="76" y="552" fill="#4A83A8" font-size="17" font-family="'Chakra Petch', monospace">-&gt; BM25 + vector (22 docs)</text>
+  <text x="76" y="585" fill="#B38CF0" font-size="17" font-family="'Chakra Petch', monospace">-&gt; HyDE + reranker</text>
+
+  <text x="46" y="624" fill="#315B78" font-size="26" font-family="'Chakra Petch', monospace">|</text>
+  <circle cx="49" cy="649" r="7" fill="#A689F0"/>
+  <text x="76" y="658" fill="#A689F0" font-size="21" font-family="'Chakra Petch', monospace">analyzer (gemini 2.5)</text>
+  <text x="469" y="658" fill="#4684AA" font-size="18" font-family="'Chakra Petch', monospace">1.2s</text>
+
+  <text x="46" y="697" fill="#315B78" font-size="26" font-family="'Chakra Petch', monospace">|</text>
+  <circle cx="49" cy="721" r="7" fill="#60D08A"/>
+  <text x="76" y="730" fill="#60D08A" font-size="21" font-family="'Chakra Petch', monospace">memo writer</text>
+  <text x="471" y="730" fill="#4684AA" font-size="18" font-family="'Chakra Petch', monospace">48ms</text>
+
+  <text x="46" y="770" fill="#315B78" font-size="26" font-family="'Chakra Petch', monospace">|</text>
+  <circle cx="49" cy="797" r="7" fill="#60D08A"/>
+  <text x="76" y="806" fill="#60D08A" font-size="21" font-family="'Chakra Petch', monospace">memory saver</text>
+  <text x="471" y="806" fill="#4684AA" font-size="18" font-family="'Chakra Petch', monospace">22ms</text>
+
+  <text x="596" y="287" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">// live market data - NVDA</text>
+  <rect x="596" y="317" width="228" height="138" rx="12" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <rect x="842" y="317" width="228" height="138" rx="12" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <rect x="596" y="474" width="228" height="138" rx="12" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <rect x="842" y="474" width="228" height="138" rx="12" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+
+  <text x="618" y="356" fill="#3F7AA3" font-size="19" font-family="'Chakra Petch', monospace">price</text>
+  <text x="618" y="401" fill="#64D08B" font-size="34" font-weight="700" font-family="'Chakra Petch', monospace">$875.40</text>
+  <text x="618" y="430" fill="#64D08B" font-size="18" font-family="'Chakra Petch', monospace">+3.2% today</text>
+
+  <text x="864" y="356" fill="#3F7AA3" font-size="19" font-family="'Chakra Petch', monospace">mkt cap</text>
+  <text x="864" y="401" fill="#67C5EA" font-size="34" font-weight="700" font-family="'Chakra Petch', monospace">$2.15T</text>
+  <text x="864" y="430" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">rank #3 globally</text>
+
+  <text x="618" y="513" fill="#3F7AA3" font-size="19" font-family="'Chakra Petch', monospace">P/E ratio</text>
+  <text x="618" y="558" fill="#DDB45D" font-size="34" font-weight="700" font-family="'Chakra Petch', monospace">65.2x</text>
+  <text x="618" y="588" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">fwd: 38x</text>
+
+  <text x="864" y="513" fill="#3F7AA3" font-size="19" font-family="'Chakra Petch', monospace">gross margin</text>
+  <text x="864" y="558" fill="#64D08B" font-size="34" font-weight="700" font-family="'Chakra Petch', monospace">74.6%</text>
+  <text x="864" y="588" fill="#64D08B" font-size="18" font-family="'Chakra Petch', monospace">sector high</text>
+
+  <text x="596" y="655" fill="#3F7AA3" font-size="19" font-family="'Chakra Petch', monospace">revenue by segment ($B)</text>
+  <text x="596" y="691" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">data center</text>
+  <rect x="756" y="674" width="267" height="24" rx="4" fill="#102131"/>
+  <rect x="756" y="674" width="224" height="24" rx="4" fill="#67B7D9"/>
+  <text x="1038" y="692" fill="#67C5EA" font-size="17" font-family="'Chakra Petch', monospace">47.5</text>
+
+  <text x="596" y="726" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">gaming</text>
+  <rect x="756" y="708" width="267" height="24" rx="4" fill="#102131"/>
+  <rect x="756" y="708" width="55" height="24" rx="4" fill="#9F84E7"/>
+  <text x="1038" y="726" fill="#B38CF0" font-size="17" font-family="'Chakra Petch', monospace">3.1</text>
+
+  <text x="596" y="761" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">pro viz</text>
+  <rect x="756" y="742" width="267" height="24" rx="4" fill="#102131"/>
+  <rect x="756" y="742" width="17" height="24" rx="4" fill="#DDB45D"/>
+  <text x="1038" y="761" fill="#DDB45D" font-size="17" font-family="'Chakra Petch', monospace">0.5</text>
+
+  <text x="40" y="894" fill="#3F7AA3" font-size="21" font-family="'Chakra Petch', monospace">// gemini 2.5 flash - analysis</text>
+  <rect x="42" y="919" width="1027" height="437" rx="14" fill="#0E1D2B" stroke="#1F425C" stroke-width="2"/>
+  <text x="71" y="975" fill="#D4DEE8" font-size="24" font-weight="700" font-family="'Chakra Petch', monospace">NVIDIA Corporation</text>
+  <text x="321" y="975" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">demonstrates exceptional fundamental strength driven</text>
+  <text x="71" y="1017" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">by AI infrastructure demand. Revenue surged</text>
+  <text x="646" y="1017" fill="#64D08B" font-size="24" font-family="'Chakra Petch', monospace">+122% YoY</text>
+  <text x="793" y="1017" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">to $53.8B, with</text>
+  <text x="71" y="1060" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">data center contributing</text>
+  <text x="399" y="1060" fill="#67C5EA" font-size="24" font-family="'Chakra Petch', monospace">88% of total revenue.</text>
+  <text x="686" y="1060" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">Gross margins of</text>
+  <text x="908" y="1060" fill="#64D08B" font-size="24" font-family="'Chakra Petch', monospace">74.6%</text>
+  <text x="71" y="1102" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">represent the highest in the semiconductor sector, reflecting strong</text>
+  <text x="71" y="1144" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">pricing power on H100/H200 GPU lines.</text>
+  <text x="71" y="1228" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">Forward P/E of</text>
+  <text x="269" y="1228" fill="#DDB45D" font-size="24" font-family="'Chakra Petch', monospace">38x</text>
+  <text x="327" y="1228" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">appears justified given AI capex tailwinds from</text>
+  <text x="71" y="1270" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">hyperscalers.</text>
+  <text x="257" y="1270" fill="#64D08B" font-size="24" font-family="'Chakra Petch', monospace">No contradictions</text>
+  <text x="490" y="1270" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">detected between news sentiment and price</text>
+  <text x="71" y="1312" fill="#9AABBA" font-size="24" font-family="'Chakra Petch', monospace">action.</text>
+
+  <circle cx="48" cy="1432" r="8" fill="#63C683"/>
+  <text x="66" y="1427" fill="#73D089" font-size="22" font-family="'Chakra Petch', monospace">HIGH</text>
+  <text x="66" y="1450" fill="#73D089" font-size="22" font-family="'Chakra Petch', monospace">CONFIDENCE</text>
+
+  <text x="260" y="1426" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">sources:</text>
+  <text x="260" y="1450" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">4</text>
+
+  <text x="388" y="1426" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">route:</text>
+  <text x="388" y="1450" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">FUNDAMENTALS</text>
+
+  <text x="595" y="1426" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">contradictions:</text>
+  <text x="595" y="1450" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">none</text>
+
+  <text x="810" y="1426" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">memory:</text>
+  <text x="810" y="1450" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">saved</text>
+
+  <text x="965" y="1426" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">total:</text>
+  <text x="965" y="1450" fill="#4A83A8" font-size="18" font-family="'Chakra Petch', monospace">1.59s</text>
+</svg>
