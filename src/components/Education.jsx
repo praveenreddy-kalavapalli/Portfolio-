@@ -9,7 +9,7 @@
         <article className="edu-card-wide">
           <h3>B.Tech Computer Science Engineering (AI & ML)</h3>
           <p>Lovely Professional University</p>
-          <p>CGPA: 5.64</p>
+          <p>CGPA: 6.5</p>
         </article>
 
         <article className="edu-card-wide">
