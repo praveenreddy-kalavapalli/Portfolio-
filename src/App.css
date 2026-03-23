@@ -1676,6 +1676,147 @@ h3 {
   line-height: 1.6;
 }
 
+.achievement-grid {
+  display: grid;
+  gap: 0.95rem;
+}
+
+.achievement-card {
+  position: relative;
+  padding: 1.4rem;
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at top right, rgba(120, 201, 92, 0.14), transparent 24%),
+    linear-gradient(180deg, rgba(9, 19, 30, 0.97), rgba(7, 15, 26, 0.98));
+  border: 1px solid rgba(87, 132, 179, 0.22);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.24);
+}
+
+.achievement-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(70, 126, 170, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(70, 126, 170, 0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.achievement-head,
+.achievement-copy,
+.achievement-list,
+.achievement-btn {
+  position: relative;
+  z-index: 1;
+}
+
+.achievement-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: start;
+}
+
+.achievement-kicker {
+  margin: 0 0 0.5rem;
+  color: #86f0a0;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.achievement-title {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: clamp(1.2rem, 2.3vw, 1.58rem);
+  line-height: 1.12;
+}
+
+.achievement-handle {
+  margin: 0.5rem 0 0;
+  color: #c9d7e6;
+  font-size: 0.92rem;
+}
+
+.achievement-badge {
+  flex: 0 0 auto;
+  min-width: 72px;
+  padding: 0.58rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(21, 59, 40, 0.88);
+  border: 1px solid rgba(120, 201, 92, 0.24);
+  color: #b6ffca;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.achievement-copy {
+  margin: 1rem 0 0;
+  max-width: 74ch;
+  color: #d4e0ec;
+  line-height: 1.7;
+  font-size: 0.96rem;
+}
+
+.achievement-list {
+  margin: 1rem 0 0;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.achievement-list-item {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 0.85rem;
+  align-items: start;
+  padding: 0.8rem 0.9rem;
+  border-radius: 14px;
+  background: rgba(8, 17, 31, 0.94);
+  border: 1px solid rgba(73, 114, 169, 0.18);
+}
+
+.achievement-list-index {
+  display: inline-grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: rgba(17, 56, 35, 0.88);
+  border: 1px solid rgba(120, 201, 92, 0.2);
+  color: #b6ffca;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.achievement-btn {
+  margin-top: 1rem;
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  text-decoration: none;
+  min-height: 44px;
+  padding: 0.7rem 1.1rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2dd36f 0%, #16b65f 100%);
+  color: #021109;
+  box-shadow: 0 14px 28px rgba(45, 211, 111, 0.18);
+}
+
+.achievement-btn-secondary {
+  margin-left: 0.65rem;
+  background: linear-gradient(135deg, #1ec8f1 0%, #10b3df 100%);
+  color: #04131c;
+  box-shadow: 0 14px 28px rgba(16, 179, 223, 0.18);
+}
+
 .education-stack {
   display: grid;
   gap: 0.95rem;
