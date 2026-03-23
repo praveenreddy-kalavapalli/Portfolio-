@@ -219,13 +219,16 @@ h1 span {
   left: 50%;
   width: var(--orbit-w, 360px);
   height: var(--orbit-h, 220px);
-  transform: translate(-50%, -50%) scale(0.12);
+  transform: translate(-50%, -50%) scale(1);
   transform-origin: center;
-  opacity: 0;
+  opacity: 1;
   border-radius: 50%;
   border: 1px solid rgba(86, 219, 255, 0.26);
   box-shadow: inset 0 0 24px rgba(19, 160, 212, 0.08);
-  transition: opacity 0.55s ease, transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.35s ease;
+  transition: border-color 0.35s ease, box-shadow 0.35s ease;
+  animation-name: heroOrbitSpin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .hero-tech-orbit::after {
@@ -329,12 +332,8 @@ h1 span {
 
 .photo-slot:hover .hero-tech-orbit,
 .photo-slot:focus-within .hero-tech-orbit {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-  border-color: rgba(109, 228, 255, 0.34);
-  animation-name: heroOrbitSpin;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  border-color: rgba(109, 228, 255, 0.4);
+  box-shadow: inset 0 0 28px rgba(19, 160, 212, 0.12), 0 0 18px rgba(62, 213, 255, 0.08);
 }
 
 .photo-slot:hover .hero-tech-chip,
@@ -1578,6 +1577,23 @@ h3 {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
+.info-card-thumb {
+  width: 100%;
+  height: 220px;
+  margin-bottom: 0.9rem;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid rgba(104, 130, 196, 0.2);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.info-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .info-card-kicker {
   margin: 0 0 0.45rem;
   color: #6ed8ff;
@@ -1598,6 +1614,39 @@ h3 {
   color: #d6e0ea;
   font-size: 0.9rem;
   line-height: 1.6;
+}
+
+.info-card-cert-meta {
+  margin-top: 0.55rem;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.info-card-cert-meta p {
+  margin: 0;
+  color: #bfd0dd;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.info-card-list {
+  margin: 0.85rem 0 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.55rem;
+  color: #d7e2ed;
+}
+
+.info-card-list li {
+  line-height: 1.55;
+}
+
+.info-card-btn {
+  margin-top: 0.9rem;
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  text-decoration: none;
 }
 
 .empty-panel {
